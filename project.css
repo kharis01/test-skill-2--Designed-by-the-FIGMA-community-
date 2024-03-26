@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.left-nav {
+  display: flex;
+  gap: 100px;
+}
+
+div.left-nav a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+  /* font-size: 12px; */
+}
+
+/* page 1 */
+.all-1 {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title h1 {
+  font-size: 64px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.title h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.project {
+  display: flex;
+  gap: 30px;
+  background-color: #fbfbfb;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.project p {
+  text-align: justify;
+  padding-right: 70px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.project button {
+  padding: 15px 40px;
+  background-color: white;
+  border: none;
+}
+
+.bot-group {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.list {
+  font-size: 28px;
+  color: #bdbdbd;
+}
+
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-1 {
+  background-color: white;
+  border: #f2f2f2;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-2 {
+  background-color: #f9f9f9;
+  border: #f2f2f2;
+  width: 50px;
+  height: 50px;
+}
+
+/* footer */
+.all-5 {
+  display: flex;
+  padding: 100px 50px;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+
+.all-5 img.logo {
+  width: 10%;
+  height: 10%;
+}
+
+.foo-information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.foo-information h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.foo-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.foo-contact h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.map {
+  display: flex;
+  gap: 10px;
+}
+
+.call {
+  display: flex;
+  gap: 10px;
+}
+
+.gmail {
+  display: flex;
+  gap: 10px;
+}
+
+.foo-social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.foo-social h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.icon {
+  display: flex;
+  gap: 40px;
+}
+
+.foo-garis {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+.copyright {
+  padding: 10px 50px;
+  background-color: black;
+}
+
+.copyright p {
+  margin: 24px;
+  text-align: center;
+  color: #c8c8c8;
+}
